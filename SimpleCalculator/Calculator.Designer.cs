@@ -1,6 +1,6 @@
 ﻿namespace WindowsFormsApplication1
 {
-    partial class simple_calculator
+    partial class Simple_calculator
     {
         /// <summary>
         /// Required designer variable.
@@ -57,6 +57,7 @@
             this.btnEq = new System.Windows.Forms.Button();
             this.btnD = new System.Windows.Forms.Button();
             this.btnDecimal = new System.Windows.Forms.Button();
+            this.btnNegative = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // result
@@ -80,7 +81,7 @@
             this.btn7.TabIndex = 1;
             this.btn7.Text = "7";
             this.btn7.UseVisualStyleBackColor = false;
-            this.btn7.Click += new System.EventHandler(this.btn7_Click);
+            this.btn7.Click += new System.EventHandler(this.Btn7_Click);
             // 
             // btn4
             // 
@@ -93,7 +94,7 @@
             this.btn4.TabIndex = 2;
             this.btn4.Text = "4";
             this.btn4.UseVisualStyleBackColor = false;
-            this.btn4.Click += new System.EventHandler(this.btn4_Click);
+            this.btn4.Click += new System.EventHandler(this.Btn4_Click);
             // 
             // btn1
             // 
@@ -106,7 +107,7 @@
             this.btn1.TabIndex = 3;
             this.btn1.Text = "1";
             this.btn1.UseVisualStyleBackColor = false;
-            this.btn1.Click += new System.EventHandler(this.btn1_Click);
+            this.btn1.Click += new System.EventHandler(this.Btn1_Click);
             // 
             // btn8
             // 
@@ -119,7 +120,7 @@
             this.btn8.TabIndex = 4;
             this.btn8.Text = "8";
             this.btn8.UseVisualStyleBackColor = false;
-            this.btn8.Click += new System.EventHandler(this.btn8_Click);
+            this.btn8.Click += new System.EventHandler(this.Btn8_Click);
             // 
             // btn9
             // 
@@ -132,7 +133,7 @@
             this.btn9.TabIndex = 5;
             this.btn9.Text = "9";
             this.btn9.UseVisualStyleBackColor = false;
-            this.btn9.Click += new System.EventHandler(this.btn9_Click);
+            this.btn9.Click += new System.EventHandler(this.Btn9_Click);
             // 
             // btn5
             // 
@@ -145,7 +146,7 @@
             this.btn5.TabIndex = 6;
             this.btn5.Text = "5";
             this.btn5.UseVisualStyleBackColor = false;
-            this.btn5.Click += new System.EventHandler(this.btn5_Click);
+            this.btn5.Click += new System.EventHandler(this.Btn5_Click);
             // 
             // btn6
             // 
@@ -158,7 +159,7 @@
             this.btn6.TabIndex = 7;
             this.btn6.Text = "6";
             this.btn6.UseVisualStyleBackColor = false;
-            this.btn6.Click += new System.EventHandler(this.btn6_Click);
+            this.btn6.Click += new System.EventHandler(this.Btn6_Click);
             // 
             // btn2
             // 
@@ -171,7 +172,7 @@
             this.btn2.TabIndex = 8;
             this.btn2.Text = "2";
             this.btn2.UseVisualStyleBackColor = false;
-            this.btn2.Click += new System.EventHandler(this.btn2_Click);
+            this.btn2.Click += new System.EventHandler(this.Btn2_Click);
             // 
             // btn3
             // 
@@ -184,7 +185,7 @@
             this.btn3.TabIndex = 9;
             this.btn3.Text = "3";
             this.btn3.UseVisualStyleBackColor = false;
-            this.btn3.Click += new System.EventHandler(this.btn3_Click);
+            this.btn3.Click += new System.EventHandler(this.Btn3_Click);
             // 
             // bracketL
             // 
@@ -197,7 +198,7 @@
             this.bracketL.TabIndex = 10;
             this.bracketL.Text = "(";
             this.bracketL.UseVisualStyleBackColor = false;
-            this.bracketL.Click += new System.EventHandler(this.bracketL_Click);
+            this.bracketL.Click += new System.EventHandler(this.BracketL_Click);
             // 
             // btn0
             // 
@@ -210,7 +211,7 @@
             this.btn0.TabIndex = 11;
             this.btn0.Text = "0";
             this.btn0.UseVisualStyleBackColor = false;
-            this.btn0.Click += new System.EventHandler(this.btn0_Click);
+            this.btn0.Click += new System.EventHandler(this.Btn0_Click);
             // 
             // bracketR
             // 
@@ -223,7 +224,7 @@
             this.bracketR.TabIndex = 12;
             this.bracketR.Text = ")";
             this.bracketR.UseVisualStyleBackColor = false;
-            this.bracketR.Click += new System.EventHandler(this.bracketR_Click);
+            this.bracketR.Click += new System.EventHandler(this.BracketR_Click);
             // 
             // btnClr
             // 
@@ -284,7 +285,7 @@
             this.btnSq.TabIndex = 17;
             this.btnSq.Text = "Square";
             this.btnSq.UseVisualStyleBackColor = false;
-            this.btnSq.Click += new System.EventHandler(this.btnSq_Click);
+            this.btnSq.Click += new System.EventHandler(this.BtnSq_Click);
             // 
             // btnSqrt
             // 
@@ -332,7 +333,7 @@
             this.btnC.TabIndex = 13;
             this.btnC.Text = "Clear";
             this.btnC.UseVisualStyleBackColor = false;
-            this.btnC.Click += new System.EventHandler(this.btnC_Click);
+            this.btnC.Click += new System.EventHandler(this.BtnC_Click);
             // 
             // btnP
             // 
@@ -346,7 +347,7 @@
             this.btnP.TabIndex = 14;
             this.btnP.Text = "+";
             this.btnP.UseVisualStyleBackColor = false;
-            this.btnP.Click += new System.EventHandler(this.btnP_Click);
+            this.btnP.Click += new System.EventHandler(this.BtnP_Click);
             // 
             // btnS
             // 
@@ -360,7 +361,7 @@
             this.btnS.TabIndex = 15;
             this.btnS.Text = "-";
             this.btnS.UseVisualStyleBackColor = false;
-            this.btnS.Click += new System.EventHandler(this.btnS_Click);
+            this.btnS.Click += new System.EventHandler(this.BtnS_Click);
             // 
             // btnM
             // 
@@ -374,7 +375,7 @@
             this.btnM.TabIndex = 16;
             this.btnM.Text = "*";
             this.btnM.UseVisualStyleBackColor = false;
-            this.btnM.Click += new System.EventHandler(this.btnM_Click);
+            this.btnM.Click += new System.EventHandler(this.BtnM_Click);
             // 
             // sqrt
             // 
@@ -387,7 +388,7 @@
             this.sqrt.TabIndex = 18;
             this.sqrt.Text = "Sqrt";
             this.sqrt.UseVisualStyleBackColor = false;
-            this.sqrt.Click += new System.EventHandler(this.sqrt_Click);
+            this.sqrt.Click += new System.EventHandler(this.Sqrt_Click);
             // 
             // btnEq
             // 
@@ -400,7 +401,7 @@
             this.btnEq.TabIndex = 19;
             this.btnEq.Text = "=";
             this.btnEq.UseVisualStyleBackColor = false;
-            this.btnEq.Click += new System.EventHandler(this.btnEq_Click);
+            this.btnEq.Click += new System.EventHandler(this.BtnEq_Click);
             // 
             // btnD
             // 
@@ -414,27 +415,40 @@
             this.btnD.TabIndex = 20;
             this.btnD.Text = "/";
             this.btnD.UseVisualStyleBackColor = false;
-            this.btnD.Click += new System.EventHandler(this.btnD_Click);
+            this.btnD.Click += new System.EventHandler(this.BtnD_Click);
             // 
             // btnDecimal
             // 
             this.btnDecimal.BackColor = System.Drawing.SystemColors.Menu;
             this.btnDecimal.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnDecimal.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDecimal.Location = new System.Drawing.Point(420, 575);
+            this.btnDecimal.Location = new System.Drawing.Point(420, 577);
             this.btnDecimal.Name = "btnDecimal";
-            this.btnDecimal.Size = new System.Drawing.Size(147, 91);
+            this.btnDecimal.Size = new System.Drawing.Size(73, 91);
             this.btnDecimal.TabIndex = 21;
             this.btnDecimal.Text = ".";
             this.btnDecimal.UseVisualStyleBackColor = false;
-            this.btnDecimal.Click += new System.EventHandler(this.btnDecimal_Click);
+            this.btnDecimal.Click += new System.EventHandler(this.BtnDecimal_Click);
             // 
-            // simple_calculator
+            // btnNegative
+            // 
+            this.btnNegative.BackColor = System.Drawing.SystemColors.Menu;
+            this.btnNegative.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnNegative.Location = new System.Drawing.Point(497, 577);
+            this.btnNegative.Name = "btnNegative";
+            this.btnNegative.Size = new System.Drawing.Size(70, 91);
+            this.btnNegative.TabIndex = 22;
+            this.btnNegative.Text = "( - )";
+            this.btnNegative.UseVisualStyleBackColor = false;
+            this.btnNegative.Click += new System.EventHandler(this.BtnNegative_Click);
+            // 
+            // Simple_calculator
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(832, 835);
+            this.Controls.Add(this.btnNegative);
             this.Controls.Add(this.btnDecimal);
             this.Controls.Add(this.btnD);
             this.Controls.Add(this.btnDevision);
@@ -465,7 +479,7 @@
             this.Controls.Add(this.btn7);
             this.Controls.Add(this.result);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
-            this.Name = "simple_calculator";
+            this.Name = "Simple_calculator";
             this.Text = "Calculator";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -503,6 +517,7 @@
         private System.Windows.Forms.Button btnEq;
         private System.Windows.Forms.Button btnD;
         private System.Windows.Forms.Button btnDecimal;
+        private System.Windows.Forms.Button btnNegative;
     }
 }
 

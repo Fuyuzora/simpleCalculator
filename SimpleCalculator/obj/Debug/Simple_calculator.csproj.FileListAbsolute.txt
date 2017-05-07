@@ -16,3 +16,12 @@ C:\YorHa\Operation Kiatahara Haruki\closing chapters\calculator\WindowsFormsAppl
 C:\YorHa\Operation Kiatahara Haruki\closing chapters\calculator\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.simple_calculator.resources
 C:\YorHa\Operation Kiatahara Haruki\closing chapters\calculator\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
 C:\YorHa\Operation Kiatahara Haruki\closing chapters\calculator\WindowsFormsApplication1\obj\Debug\Simple_calculator.csproj.GenerateResource.Cache
+C:\YorHa\Operation Kiatahara Haruki\closing chapters\calculator\SimpleCalculator\bin\Debug\WindowsFormsApplication1.exe.config
+C:\YorHa\Operation Kiatahara Haruki\closing chapters\calculator\SimpleCalculator\bin\Debug\WindowsFormsApplication1.exe
+C:\YorHa\Operation Kiatahara Haruki\closing chapters\calculator\SimpleCalculator\bin\Debug\WindowsFormsApplication1.pdb
+C:\YorHa\Operation Kiatahara Haruki\closing chapters\calculator\SimpleCalculator\obj\Debug\Simple_calculator.csprojResolveAssemblyReference.cache
+C:\YorHa\Operation Kiatahara Haruki\closing chapters\calculator\SimpleCalculator\obj\Debug\WindowsFormsApplication1.simple_calculator.resources
+C:\YorHa\Operation Kiatahara Haruki\closing chapters\calculator\SimpleCalculator\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\YorHa\Operation Kiatahara Haruki\closing chapters\calculator\SimpleCalculator\obj\Debug\Simple_calculator.csproj.GenerateResource.Cache
+C:\YorHa\Operation Kiatahara Haruki\closing chapters\calculator\SimpleCalculator\obj\Debug\WindowsFormsApplication1.exe
+C:\YorHa\Operation Kiatahara Haruki\closing chapters\calculator\SimpleCalculator\obj\Debug\WindowsFormsApplication1.pdb
